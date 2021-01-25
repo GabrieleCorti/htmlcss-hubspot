@@ -95,3 +95,36 @@ a {
   text-align: left;
   vertical-align: middle;
 }
+/* banner e clame */
+.wrapper {
+  height: 732px;
+  width: 100%;
+  position: relative;
+  background-color: #FFF3EF;
+  background-image: url(../img/jumbotron.png);
+}
+
+.clame {
+  color: #33475B;
+  padding: 64px 0;
+  width: 60%;
+}
+
+.clame h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.clame p {
+  margin: 18px 0;
+  line-height: 2;
+}
+
+.btn.full.big {
+  padding: 15px 30px;
+}
+
+small {
+  margin-top: 18px;
+  display: block;
+}

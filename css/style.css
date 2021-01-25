@@ -193,6 +193,11 @@ main {
   padding-right: 40px
 }
 
+.description, .imgbutton {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .description h3 {
   font-size: 22px;
 }
@@ -214,4 +219,40 @@ main {
 
 .description li {
   padding: 0 14px 0 0;
+}
+/* row-2 */
+.column {
+  background-color: white;
+  width: calc(90% / 3);
+  text-align: center;
+  margin-top: 45px;
+  padding: 30px;
+}
+
+.column h3 {
+  font-size: 22px;
+}
+
+.column p {
+  margin: 15px 0 50px 0;
+}
+
+.column h4 {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.column ul {
+  text-align: left;;
+  list-style-type: none;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.column .btn {
+  margin-bottom: 17px;
+}
+
+.mid {
+  margin: 45px 5%;
 }

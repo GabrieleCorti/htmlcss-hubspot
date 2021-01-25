@@ -19,11 +19,18 @@
   width: 75%;
   margin: auto;
 }
+
+.float {
+  float: left;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 /* navbar */
 header {
   color: #007A8C;
   background-color: #F4F9FD;
-  font-family: 'Montserrat', sans-serif;
   width: 100%;
   font-size: 15px;
 }
@@ -138,3 +145,73 @@ small {
    position: absolute;
    bottom: 0;
  }
+/* main */
+main {
+  line-height: 2;
+  color: #33475B;
+  background-color: #F4F9FD;
+}
+/* clame 2 */
+.clame-2 {
+  text-align: center;
+  padding: 55px 0 0 0;
+}
+
+.img-cube {
+  height: 190px;
+}
+
+.clame-2 h2 {
+  font-size: 30px;
+}
+
+.clame-2 p {
+  margin: 30px 0;
+}
+/* sezione box */
+.row {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.imgbutton {
+  width: 30%;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.img-crm {
+  height: 100px;
+}
+
+.crm{
+  margin-bottom: 17px;
+}
+
+.description {
+  width: 68%;
+  padding-right: 40px
+}
+
+.description h3 {
+  font-size: 22px;
+}
+
+.description p {
+  margin: 20px 0 7px 0;
+}
+
+.description h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.fa-check-circle {
+  color: #FF7A59;
+  padding: 0 13px 0 0;
+}
+
+.description li {
+  padding: 0 14px 0 0;
+}

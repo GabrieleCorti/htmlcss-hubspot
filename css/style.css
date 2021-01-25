@@ -16,7 +16,7 @@
 }
 
 .center {
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 /* navbar */
@@ -25,9 +25,15 @@ header {
   background-color: #F4F9FD;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
-  border-bottom: 1px solid #007A8C;
-  padding: 20px;
   font-size: 15px;
+}
+.top {
+  border-bottom: 1px solid #007A8C;
+  padding: 20px 0;
+}
+
+.top .bot {
+  width: 100%;
 }
 
 .left, .right {
@@ -52,6 +58,7 @@ a {
   border-right: 1px solid #007A8C;
 }
 
+
 .fa-globe-europe {
   padding-right: 2px;
 }
@@ -71,4 +78,20 @@ a {
 .btn.full {
   background-color: #FF7A59;
   color: white;
+}
+
+.bot {
+  padding: 20px 0;
+  background-color: white;
+}
+
+.navinsite {
+   width: 60%;
+   text-align: right;
+ }
+
+.logo {
+  width: 39%;
+  text-align: left;
+  vertical-align: middle;
 }

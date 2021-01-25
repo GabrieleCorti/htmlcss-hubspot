@@ -11,6 +11,64 @@
   clear: both;
 }
 
-body {
-  background-color: green;
+.inliner {
+  display: inline-block;
+}
+
+.center {
+  width: 80%;
+  margin: auto;
+}
+/* navbar */
+header {
+  color: #007A8C;
+  background-color: #F4F9FD;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  border-bottom: 1px solid #007A8C;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.left, .right {
+  width: 49%;
+}
+
+.right {
+  text-align: right;
+}
+
+li:not(.first) {
+  text-decoration: none;
+  padding: 0 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.first {
+  padding-right: 14px;
+  border-right: 1px solid #007A8C;
+}
+
+.fa-globe-europe {
+  padding-right: 2px;
+}
+
+.fa-chevron-down {
+  padding: 0 5px;
+}
+
+.btn {
+  background-color: white;
+  color: #FF7A59;
+  border: 1px solid #FF7A59;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.btn.full {
+  background-color: #FF7A59;
+  color: white;
 }

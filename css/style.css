@@ -270,7 +270,7 @@ main {
 }
 
 .section-2 p {
-  margin: 20px 0;
+  margin: 20px 0 40px 0;
 }
 /* row loghi */
 .socialinfo {
@@ -299,4 +299,9 @@ main {
 
 .borderR {
   border-right: 1px solid white;
+}
+
+.socialrow.two {
+  border-top: 1px solid white;
+  padding-bottom: 60px;
 }

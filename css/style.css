@@ -238,8 +238,8 @@ main {
   margin: 20px 0;
 }
 
-.column ul {
-  text-align: left;;
+.column ul, footer ul {
+  text-align: left;
   list-style-type: none;
   line-height: 1;
   margin-bottom: 30px;
@@ -371,4 +371,44 @@ main {
 
 .ragazzacineseimg {
   height: 350px;
+}
+/* footer */
+footer {
+  width: 100%;
+  background-color: #2d3e50;
+  color: white;
+}
+
+.footdiv {
+  padding: 20px 0 60px 0;
+}
+
+.utility:not(:last-child) {
+  padding-right: 9%;
+}
+
+footer h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.utility .lifoot {
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: #cbd6e2;
+  font-size: 13px;
+}
+
+footer .btn.full {
+  color: #2d3e50;
+  background-color: #cbd6e2;
+  border: none;
+}
+
+.icon {
+  font-size: 16px;
+  padding-right: 15px;
 }

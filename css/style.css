@@ -305,3 +305,43 @@ main {
   border-top: 1px solid white;
   padding-bottom: 60px;
 }
+/* section-3 */
+.section-3 {
+  background-color: white;
+}
+
+.costumer {
+  padding-top: 30px;
+}
+
+.costumerinfo {
+  width: 25%;
+  text-align: left;
+  padding: 0 30px 30px 30px;
+}
+
+.costumerinfo h3 {
+  font-size: 45px;
+}
+
+.costumerinfo span {
+  font-weight: bold;
+}
+
+.costumerlogo {
+  padding-top: 20px;
+  float: right;
+}
+
+.logodiv {
+  padding: 0 20px;
+}
+
+.logorowimg {
+  width: 140px;
+  vertical-align: middle;
+}
+
+.logorow-2 {
+  padding-top: 20px;
+}

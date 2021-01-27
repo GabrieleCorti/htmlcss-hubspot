@@ -34,7 +34,7 @@ header {
   width: 100%;
   font-size: 15px;
 }
-
+/* top */
 .top {
   border-bottom: 1px solid #007A8C;
   padding: 20px 0;
@@ -53,7 +53,6 @@ header {
 }
 
 li:not(.first):not(.last) {
-  text-decoration: none;
   padding: 0 14px;
 }
 
@@ -91,7 +90,7 @@ a {
 .last {
   padding-left: 14px;
 }
-
+/* bot */
 .bot {
   padding: 20px 0;
   background-color: white;
@@ -219,7 +218,7 @@ main {
   padding: 0 13px 0 0;
 }
 
-.description li {
+.description .listfeat li {
   padding: 0 14px 0 0;
 }
 /* row-2 */
@@ -351,7 +350,10 @@ main {
   padding: 20px 0;
 }
 /* starttoday */
-.starttoday
+.starttoday {
+  padding-bottom: 45px;
+}
+
 .starttoday .clame {
   text-align: left;
   width: 40%;
@@ -400,7 +402,7 @@ footer h2 {
   margin-bottom: 20px;
 }
 
-.utility .lifoot {
+footer .utility .lifoot {
   padding: 0;
   margin-bottom: 15px;
 }

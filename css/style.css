@@ -212,7 +212,11 @@ main {
   margin-bottom: 10px;
   text-transform: capitalize;
 }
-
+.hrfeat {
+  width: 50%;
+  vertical-align: middle;
+  margin-left: 50px;
+}
 .fa-check-circle {
   color: #FF7A59;
   padding: 0 13px 0 0;
@@ -361,8 +365,9 @@ main {
   padding: 60px 0 0 0;
 }
 
-.starttoday h1 {
-  font-size: 32px;
+.starttoday h2 {
+  font-size: 35px;
+  font-weight: 700;
 
 }
 
